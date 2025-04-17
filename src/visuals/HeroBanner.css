@@ -1,0 +1,103 @@
+/* HeroBanner.css */
+
+.hero-banner {
+  background-color: #080808; /* O el color de fondo que desees */
+  color: white;
+  padding: 50px 10px; /* Aumentamos el padding superior e inferior */
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between; /* Espacia el texto y la imagen */
+  align-items: center; /* Centra verticalmente el texto y la imagen */
+  max-width: 1200px; /* Ancho máximo del contenedor */
+  margin: 0 auto; /* Centra el contenedor en pantallas más grandes */
+}
+
+.hero-text {
+  flex: 1; /* Ocupa la mayor parte del espacio disponible */
+  padding-right: 40px; /* Espacio entre el texto y la imagen */
+  text-align: left; /* Alinea el texto a la izquierda */
+  max-width: 50%; /* Limita el ancho del texto para que se distribuya en más líneas */
+}
+
+.hero-text h1 {
+  font-size: 2.8em; /* Reducimos el tamaño del título */
+  margin-bottom: 10px; /* Reducimos el margen inferior */
+}
+
+.hero-text p {
+  font-size: 1em; /* Reducimos el tamaño del párrafo */
+  line-height: 1.7; /* Aumentamos ligeramente la altura de línea para mejor legibilidad */
+  margin-bottom: 20px; /* Reducimos el margen inferior */
+}
+
+.hero-button {
+  display: inline-block;
+  background-color: #548C27; /* Un color para el botón */
+  color: white;
+  padding: 12px 25px; /* Reducimos un poco el padding del botón */
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 0.9em; /* Reducimos el tamaño de la fuente del botón */
+  transition: background-color 0.3s ease;
+}
+
+.hero-button:hover {
+  background-color: #45a049;
+}
+
+.hero-image {
+  flex: 0 0 400px; /* Aumentamos el ancho de la imagen en escritorio */
+  height: 400px; /* Aumentamos la altura de la imagen en escritorio */
+  border-radius: 50%; /* Para hacerlo circular */
+  overflow: hidden; /* Asegura que la imagen se mantenga dentro del círculo */
+}
+
+.profile-image {
+  width: 100%;
+  height: 100%; /* Asegura que la imagen cubra todo el contenedor circular */
+  object-fit: cover; /* Recorta y escala la imagen para que cubra el contenedor */
+  display: block; /* Evita espaciado extra debajo de la imagen */
+}
+
+/* Estilos responsivos para móvil (máximo 768px) */
+@media (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-text {
+    padding-right: 0;
+    margin-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+    max-width: 100%;
+    order: 2;
+  }
+
+  .hero-image {
+    width: 300px; /* Ancho fijo */
+    height: 300px; /* Altura fija igual al ancho */
+    margin: 0 auto 30px;
+    order: 1;
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex; /* Añadimos flexbox al contenedor de la imagen */
+    align-items: center; /* Centramos verticalmente la imagen dentro */
+    justify-content: center; /* Centramos horizontalmente la imagen dentro */
+  }
+
+  .profile-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+}
+
+.espaciador {
+  width: 50%;  /* O un valor específico como 200px */
+  height: 50px; /* O cualquier otro valor */
+}

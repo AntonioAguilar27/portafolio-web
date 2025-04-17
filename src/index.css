@@ -1,0 +1,12 @@
+body {
+    font-family: 'IBM Plex Mono', monospace; /* Reemplaza con el nombre de tu fuente y una fuente de respaldo */
+    -webkit-font-smoothing: antialiased; /* Mejora el renderizado en navegadores WebKit */
+    -moz-osx-font-smoothing: grayscale; /* Mejora el renderizado en Firefox */
+  }
+  
+  /* O, si prefieres aplicarlo al #root */
+  /*
+  #root {
+    font-family: 'IBM Plex Mono', monospace;
+  }
+  */

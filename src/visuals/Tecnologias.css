@@ -1,0 +1,83 @@
+/* Tecnologias.css */
+
+.technologies-section {
+    background-color: #080808;
+    color: #fff;
+    padding: 80px 20px;
+  }
+  
+  .technologies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 40px;
+    margin-top: 30px;
+  }
+  
+  .main-tech {
+    grid-column: 1 / -1;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-bottom: 40px;
+    flex-wrap: wrap; /* Permite que los iconos principales se envuelvan en móvil */
+  }
+  
+  .tech-group {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #548C27;
+    border-radius: 8px;
+  }
+  
+  .tech-group-title {
+    color: #548C27;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-size: 1.2em;
+  }
+  
+  .tech-group > div {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 350px;
+    margin: 0 auto 15px auto;
+  }
+  
+  .tech-icon {
+    width: 120px;
+    height: 120px;
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+  }
+  
+  .tech-icon img {
+    max-width: 80%;
+    max-height: 80%;
+    object-fit: contain;
+  }
+  
+  /* Estilos para pantallas más pequeñas (móviles) */
+  @media (max-width: 768px) {
+    .technologies-grid {
+      grid-template-columns: 1fr; /* Una sola columna para los tech-group */
+    }
+  
+    .tech-group {
+      margin-bottom: 30px; /* Añadir más espacio entre los grupos en móvil */
+    }
+  
+    .tech-group > div {
+      grid-template-columns: repeat(2, 1fr); /* Mantenemos dos columnas para los iconos dentro del grupo */
+      max-width: 250px; /* Reducimos el ancho máximo en móvil */
+    }
+  
+    .tech-icon {
+      width: 80px; /* Reducimos el tamaño de los iconos en móvil */
+      height: 80px;
+    }
+  }
+

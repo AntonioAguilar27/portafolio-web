@@ -1,0 +1,30 @@
+{
+    "welcome": "Bienvenido a Mi Landing Page",
+    "subtitle": "Un sitio increíble para mostrar tu producto o servicio.",
+    "features": {
+      "title": "Características",
+      "easy": "Fácil de usar",
+      "responsive": "Responsive",
+      "optimized": "Optimizada"
+    },
+    "hero":{
+      "introduction": "¡Hola! Soy Antonio Aguilar, tengo 25 años y soy un apasionado del desarrollo web. Me encanta crear soluciones digitales que combinan diseño, funcionalidad y una buena dosis de creatividad. En este espacio comparto algunos de mis proyectos y lo que disfruto construir con código.",
+      "callToAction": "Conoceme >"
+    },
+    "contact": {
+      "title": "Contáctanos",
+      "name": "Nombre",
+      "email": "Correo",
+      "message": "Mensaje",
+      "send": "Enviar"
+    },
+    "nav": {
+      "home": "Inicio",
+      "technologies": "Tecnologías",
+      "projects": "Proyectos",
+      "about": "Sobre mi",
+      "experience": "Experiencia"
+    },
+    "footer": "Todos los derechos reservados."
+  }
+  
