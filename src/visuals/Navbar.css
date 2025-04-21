@@ -28,9 +28,7 @@
   font-size: 1rem;
 }
 
-.navbar-nav .nav-link:hover {
-  background-color: rgba(255, 255, 255, 0.1);
-}
+
 
 .language-buttons-desktop {
   position: absolute;
@@ -121,7 +119,7 @@
   color: white !important;
   background-color: #548C27 !important;
   border-color: #548C27 !important;
-  transform: scale(1.05);
+  transform: scale(1.15);
 }
 
 /* Responsive */
