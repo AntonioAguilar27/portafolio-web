@@ -16,7 +16,7 @@ const HeroBanner: React.FC = () => {
             <p className="lead">
               {t('hero.introduction')}
             </p>
-            <a href="#about" className="hero-button">
+            <a href="#projects" className="hero-button" id="technologies">
               {t('hero.callToAction')}
             </a>
           </div>

@@ -1,0 +1,26 @@
+.sidebar {
+    position: fixed; /* Para que la barra lateral se quede fija al hacer scroll */
+    top: 0;
+    left: 0; /* O right: 0; si quieres la barra a la derecha */
+    height: 100%;
+    background-color: black; /* El fondo negro que se ve en la imagen */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra los iconos verticalmente */
+    align-items: center; /* Centra los iconos horizontalmente */
+    padding: 20px 0; /* Espacio arriba y abajo */
+    z-index: 1000; /* Asegura que esté por encima de otros elementos */
+  }
+  
+  .social-icons a {
+    color: white; /* Color de los iconos */
+    font-size: 24px; /* Tamaño de los iconos */
+    margin: 10px 0; /* Espacio entre los iconos */
+    text-decoration: none; /* Quita el subrayado de los enlaces */
+    display: block; /* Para que cada icono ocupe una línea */
+  }
+  
+  /* Opcional: Hover para los iconos */
+  .social-icons a:hover {
+    opacity: 0.7; /* Reduce la opacidad al pasar el ratón */
+  }

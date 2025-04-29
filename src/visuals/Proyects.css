@@ -1,0 +1,120 @@
+.projects-section {
+  background-color: #080808;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.projects-section h2 {
+  text-align: left;
+  font-size: 2rem;
+  color: #ffffff;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  background-color: #080808 !important;
+  border-color: #548c27 !important;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.project-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-card .card-body {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white !important;
+  display: flex;
+  align-items: center;
+}
+
+.card-title i {
+  margin-right: 10px;
+}
+
+.external-link {
+  margin-left: 10px;
+  color: #548c27;
+  transition: color 0.3s ease;
+}
+
+.external-link:hover {
+  color: #66b532;
+}
+
+.external-link svg {
+  width: 20px;
+  height: 20px;
+  stroke: #548c27;
+  stroke-width: 1.5;
+  transition: stroke 0.3s ease;
+}
+
+.external-link:hover svg {
+  stroke: #66b532;
+}
+
+.card-text {
+  color: gray;
+  font-size: 1rem;
+  margin-bottom: 15px;
+}
+
+.badge {
+  background-color: #66b532;
+  color: #ffffff;
+  padding: 5px 10px;
+  margin-right: 5px;
+  border-radius: 5px;
+}
+
+.badge:hover {
+  background-color: #548c27;
+}
+
+.badge-container {
+  margin-top: auto;
+}
+
+.projects-section .row {
+  margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+  .card-body {
+    padding: 15px;
+  }
+
+  .card-title {
+    font-size: 1.1rem;
+  }
+
+  .card-text {
+    font-size: 0.95rem;
+  }
+}
+
+.parenthesis-proy {
+  color: #548c27;
+  font-weight: bold;
+  font-size: 2.2rem;
+}
+
+.proy-title {
+  font-size: 2.2rem;
+  font-weight: bold;
+}

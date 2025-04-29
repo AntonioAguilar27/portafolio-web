@@ -1,0 +1,98 @@
+.vertical-pills-container {
+    background-color: #080808; /* Fondo negro */
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Centrado horizontal */
+    justify-content: center; /* Centrado vertical */
+    min-height: 40vh;
+    width: 100%;
+  }
+  
+  .nav-pills .nav-link {
+    position: relative;
+    color: #fff;
+    background-color: transparent;
+    border-left: 4px solid transparent;
+    transition: all 0.2s ease-in-out;
+    padding-left: 1rem;
+    display: inline-block; /* IMPORTANTE: limita el ancho al contenido */
+  }
+  
+  /* Subrayado solo del texto */
+.nav-pills .nav-link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 2px;
+    width: 0%;
+    background-color: #548C27;
+    transition: width 0.3s ease-in-out;
+  }
+  
+  
+  .nav-pills .nav-link:hover::after,
+  .nav-pills .nav-link.active::after {
+    width: 100%;
+  }
+  
+  /* Opcional: cambia el color del texto cuando está activo */
+  .nav-pills .nav-link.active {
+    background-color: transparent !important;
+    color: #76b33e !important; /* o #fff si prefieres mantenerlo blanco */
+    border-left: 4px solid transparent !important;
+    box-shadow: none !important;
+
+  }
+  
+  .nav-pills .nav-link:hover {
+    color: #76b33e !important; /* o #fff si prefieres blanco */
+    background-color: transparent !important;
+    box-shadow: none !important;
+  }
+
+  .tech-card {
+    background-color: #080808;
+    border-radius: 0.75rem;
+    border: 2px solid #548C27; /* Borde verde personalizado */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    color: #fff;
+    transition: transform 0.2s ease-in-out;
+  }
+  
+  .tech-card:hover {
+    transform: translateY(-3px);
+  }
+  
+  .tech-list {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+  }
+  
+  .tech-list li {
+    padding: 0.3rem 0;
+    font-size: 1rem;
+    position: relative;
+    padding-left: 1.2rem;
+  }
+  
+  .tech-list li::before {
+    content: "▸";
+    color: #548C27;
+    position: absolute;
+    left: 0;
+  }
+
+ .tech_title{
+    margin-bottom: 4rem;
+    font-size: 2.2rem;
+    font-weight: bold;
+ }
+
+ .parenthesis-pill{
+  color: #548C27; /* Verde para los paréntesis */
+  font-size: 2.2rem;
+  font-weight: bold;
+}

@@ -1,0 +1,52 @@
+.aside-container {
+    position: fixed;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .icon-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .icons a {
+    color: white;
+    margin: 10px 0;
+    text-decoration: none;
+  }
+  
+  .vertical-line {
+    width: 2px;
+    background-color: #548c27;
+  }
+  
+  .top-line {
+    height: 200px; /* Ajusta la altura de la línea superior */
+  }
+  
+  .bottom-line {
+    height: 200px; /* Ajusta la altura de la línea inferior */
+  }
+  
+  .icons a:hover {
+    color: #548c27; /* Color cuando se pasa el mouse */
+  }
+
+  @media (max-width: 768px) {
+    .aside-container {
+      display: none;
+    }
+  }
+  

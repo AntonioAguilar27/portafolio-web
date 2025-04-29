@@ -8,8 +8,8 @@
       "optimized": "Optimizada"
     },
     "hero":{
-      "introduction": "¡Hola! Soy Antonio Aguilar, tengo 25 años y soy un apasionado del desarrollo web. Me encanta crear soluciones digitales que combinan diseño, funcionalidad y una buena dosis de creatividad. En este espacio comparto algunos de mis proyectos y lo que disfruto construir con código.",
-      "callToAction": "Conoceme >"
+      "introduction": "¡Hola! tengo 25 años y soy un apasionado del desarrollo web. Me encanta crear soluciones digitales que combinan diseño, funcionalidad y una buena dosis de creatividad. En este espacio comparto algunos de mis proyectos y lo que disfruto construir con código.",
+      "callToAction": "Conoce mis proyectos >"
     },
     "contact": {
       "title": "Contáctanos",
@@ -18,13 +18,93 @@
       "message": "Mensaje",
       "send": "Enviar"
     },
+    "experience": {
+      "title": "Experiencia"
+    },
+
+
+    "projects": {
+      "title": "Proyectos"
+    },
+    "project1": {
+      "title": "Citas veterinaria",
+      "desc": "El proyecto permite dar de alta un paciente, veterinario, cita y permite la visualización de las citas programadas. asi como poder modificar y eliminar citas."
+    },
+    "project2": {
+      "title": "Planificador de gastos",
+      "desc": "El proyecto te permite establecer un presupuesto, registrar gastos y visualizar los gastos por categoría."
+    },
+    "project3": {
+      "title": "Cotizador criptomonedas",
+      "desc": "Consume una api y nos trae el precio actual de una criptomoneda de acuerdo a la moneda elegida"
+    },
+    "project4": {
+      "title": "CRUD Django",
+      "desc": "Inicio de sesión, y operaciones crud sobre productos"
+    },
+    "project5": {
+      "title": "Crud React y Sequelize",
+      "desc": "Frontendt React con TS y backend con Sequelize y Node, utilizando cors, morgan, express, incluye pruebas y validaciones"
+    },
+    "project6": {
+      "title": "Gestor de resevaciones",
+      "desc": "Inicio de sesión, registro de usuarios, operaciones crud sobre reservaciones y usuarios"
+    },
+
+
+
+
+
+
+    "technologies": {
+      "shopify": "Shopify",
+      "liquid": "Liquid",
+      "javascript": "JavaScript",
+      "nextJS": "Next.js",
+      "airtable": "Airtable",
+      "tailwindCSS": "TailwindCSS",
+      "reactJS": "React.js",
+      "redux": "Redux",
+      "firebase": "Firebase"
+    },
+
+
+
+
+    "sections": {
+      "title": "Tecnologías",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "databases": "Databases",
+      "infrastructure": "Infrastructura"
+    },
     "nav": {
       "home": "Inicio",
       "technologies": "Tecnologías",
       "projects": "Proyectos",
-      "about": "Sobre mi",
+      "about": "Sobre_mi",
       "experience": "Experiencia"
     },
-    "footer": "Todos los derechos reservados."
+    "footer": {
+  "madewith": "Desarrollado por"
+},
+
+"work" : {
+    "gc1Holding":{
+      "title": "GC1 Holding (Enero 2025 - Actualidad)",
+      "description": "",
+      "role": "Rol: Programador Web Jr",
+      "work": "Desarrollo y mantenimiento de sitios web asi como mantenimiento de instancias AWS",
+      "technologies": " Tecnologias: React, Node.js, MongoDB, AWS, Bootstrap"
+    },
+    "coppel":{
+      "title": "Coppel (Diciembre 2023 - Julio 2024)",
+      "description": "",
+      "role": "Becario de programacion",
+      "work": "Aprendizaje sobre la metodologia de trabajo en el marco de scrum y capacitacion sobre desarrollo web",
+      "technologies": "Tecnologias: PHP, MySql, Coldfusion y Scrum"
+    }
+  }
+    
   }
   
