@@ -1,7 +1,7 @@
 .navbar {
   background-color: #1b1b1b;
   height: 80px;
-  position: fixed !important;
+  position: fixed!important;
   top: 0;
   width: 100%;
   z-index: 1000;
@@ -10,43 +10,17 @@
 .navbar .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   height: 100%;
   position: relative;
 }
 
-.navbar-left {
-  position: absolute;
-  left: 20px;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
-.antonio-name {
-  font-size: 1.5rem;
-  color: white;
-  font-weight: bold;
-}
-
-.parenthesis-antonio {
-  color: #548C27;
-  font-weight: normal;
-  font-size: 1.5rem;
-}
-
-.parenthesis {
-  color: #548C27;
-  font-weight: normal;
-  font-size: 1.1rem;
-}
-
-.navbar-nav.right-align {
+/* Links de escritorio */
+.navbar-nav {
   display: flex;
   gap: 1rem;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
 }
+
 .navbar-nav .nav-link {
   color: white;
   text-decoration: none;
@@ -54,11 +28,11 @@
   font-size: 1rem;
 }
 
+
+
 .language-buttons-desktop {
   position: absolute;
-  right: 60px;
-  top: 50%;
-  transform: translateY(-50%);
+  right: 20px;
   display: flex;
   gap: 0.5rem;
 }
@@ -93,6 +67,7 @@
   transform: translateY(-8px) rotate(45deg);
 }
 
+/* Modal */
 .mobile-menu-modal {
   position: fixed;
   top: 80px;
@@ -108,23 +83,16 @@
   gap: 25px;
 }
 
+
 .mobile-nav-links a {
   color: white;
   font-size: 1.2rem;
   text-decoration: none;
   padding: 10px 20px;
-  display: block;
-  width: 100%;
-  text-align: center;
+  display: block; /* Esto asegura que cada enlace se muestre en una línea diferente */
+  width: 100%; /* Opcional: Esto asegura que los enlaces ocupen todo el ancho disponible */
+  text-align: center; /* Opcional: Centra el texto dentro de los enlaces */
 }
-
-.mobile-icons {
-  display: flex;
-  justify-content: center;
-  gap: 1.5rem;
-  margin-top: 20px;
-}
-
 .mobile-language-buttons {
   display: flex;
   gap: 10px;
@@ -139,6 +107,7 @@
   color: white;
 }
 
+/* Botón idioma */
 .btn-outline-custom {
   color: #548C27 !important;
   border-color: #548C27 !important;
@@ -153,6 +122,7 @@
   transform: scale(1.15);
 }
 
+/* Responsive */
 @media (max-width: 768px) {
   .desktop-menu {
     display: none !important;
@@ -165,4 +135,27 @@
   .hamburger-menu {
     display: block !important;
   }
+}
+
+@media (max-width: 768px) {
+  .navbar-nav.desktop-menu {
+    display: none !important;
+  }
+}
+
+.parenthesis {
+  color: #548C27;
+  font-weight: bold;
+}
+
+
+.antonio-name{
+  color: white;
+  font-size: 1.4rem;
+}
+
+.parenthesis-antonio{
+  color: #548C27;
+  font-size: 1.4rem;
+  font-weight: bold; 
 }
