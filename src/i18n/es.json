@@ -50,6 +50,10 @@
       "title": "Gestor de resevaciones",
       "desc": "Inicio de sesión, registro de usuarios, operaciones crud sobre reservaciones y usuarios"
     },
+    "project7": {
+      "title": "Rockstargames sitio web",
+      "desc": "Proyecto fullstack utiliazando un headless cms, sitio web con entradas de blog y galeria de imagenes "
+    },
 
 
 

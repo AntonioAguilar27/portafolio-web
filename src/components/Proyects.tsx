@@ -49,6 +49,13 @@ const Projects: React.FC = () => {
               link: "https://github.com/AntonioAguilar27/Reservaciones2",
               badges: ["PHP", "MySQL", "Bootstrap"],
             },
+            {
+              title: t("project7.title"),
+              desc: t("project7.desc"),
+              link: "https://github.com/AntonioAguilar27/Frontend-React-Strapi-Rockstar",
+              link2: "https://github.com/AntonioAguilar27/Backend-React-Strapi-Rockstar",
+              badges: ["Strapi", "SQlite", "React"],
+            },
           ].map((project, index) => (
             <div className="col" key={index}>
               <div className="card h-100 project-card">
@@ -58,6 +65,11 @@ const Projects: React.FC = () => {
                     <a href={project.link} target="_blank" rel="noreferrer" className="external-link">
                       <ExternalLinkIcon />
                     </a>
+                    {project.link2 && (
+                      <a href={project.link2} target="_blank" rel="noreferrer" className="external-link">
+                        <ExternalLinkIcon />
+                      </a>
+                    )}
                   </h5>
                   <p className="card-text">{project.desc}</p>
                   <div className="badge-container">

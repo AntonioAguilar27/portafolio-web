@@ -48,6 +48,10 @@
       "title": "Reservation Manager",
       "desc": "Login and user registration system with CRUD operations for reservations and users."
     },
+    "project7": {
+      "title": "Rockstargames site",
+      "desc": "Fullstack project using a headless CMS, website with blog posts and image gallery"
+    },
     "technologies": {
       "shopify": "Shopify",
       "liquid": "Liquid",
