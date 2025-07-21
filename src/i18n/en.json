@@ -1,95 +1,98 @@
 {
-    "hero":{
-      "introduction": "Hi! I'm 25 years old, and passionate about web development. I love creating digital solutions that combine design, functionality, and a healthy dose of creativity. Here, I share some of my projects and my enjoyment of building with code.",
-      "callToAction": "Check out my projects >"
-    },
-    "contact": {
-      "title": "Contact Us",
-      "name": "Name",
-      "email": "Email",
-      "message": "Message",
-      "send": "Send"
-    },
-    "experience": {
-      "title": "Experience"
-    },
-    "sections": {
-      "title": "Technologies",
-      "frontend": "Frontend",
-      "backend": "Backend",
-      "databases": "Databases",
-      "infrastructure": "Infrastructure"
-    },
-    
-    "projects": {
-    "title": "Projects"
-    },
-    "project1": {
-      "title": "Veterinary Appointment Manager",
-      "desc": "This project allows you to add patients, veterinarians, and appointments, as well as view, modify, and delete scheduled appointments."
-    },
-    "project2": {
-      "title": "Expense Planner",
-      "desc": "This project lets you set a budget, record expenses, and view expenses by category."
-    },
-    "project3": {
-      "title": "Cryptocurrency Quoter",
-      "desc": "Fetches data from an API to display the current price of a cryptocurrency based on the selected currency."
-    },
-    "project4": {
-      "title": "Django CRUD",
-      "desc": "Login system and CRUD operations on products."
-    },
-    "project5": {
-      "title": "React and Sequelize CRUD",
-      "desc": "React frontend with TypeScript and a backend using Sequelize and Node. Uses CORS, Morgan, and Express; includes tests and validations."
-    },
-    "project6": {
-      "title": "Reservation Manager",
-      "desc": "Login and user registration system with CRUD operations for reservations and users."
-    },
-    "project7": {
-      "title": "Rockstargames site",
-      "desc": "Fullstack project using a headless CMS, website with blog posts and image gallery"
-    },
-    "technologies": {
-      "shopify": "Shopify",
-      "liquid": "Liquid",
-      "javascript": "JavaScript",
-      "nextJS": "Next.js",
-      "airtable": "Airtable",
-      "tailwindCSS": "TailwindCSS",
-      "reactJS": "React.js",
-      "redux": "Redux",
-      "firebase": "Firebase"
-    },
+  "hero": {
+    "introduction": "Hi! I'm 25 years old, and passionate about web development. I love creating digital solutions that combine design, functionality, and a healthy dose of creativity. Here, I share some of my projects and my enjoyment of building with code.",
+    "callToAction": "Check out my projects >"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send"
+  },
+  "experience": {
+    "title": "Experience"
+  },
+  "sections": {
+    "title": "Technologies",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "databases": "Databases",
+    "infrastructure": "Infrastructure"
+  },
 
-    "nav": {
-      "home": "Home",
-      "technologies": "Technologies",
-      "projects": "Projects",
-      "about": "About",
-      "experience": "Experience"
-    },
-    "footer": {
-  "madewith": "Made by "
-},
+  "projects": {
+    "title": "Projects"
+  },
+  "project1": {
+    "title": "Veterinary Appointment Manager",
+    "desc": "This project allows you to add patients, veterinarians, and appointments, as well as view, modify, and delete scheduled appointments."
+  },
+  "project2": {
+    "title": "Expense Planner",
+    "desc": "This project lets you set a budget, record expenses, and view expenses by category."
+  },
+  "project3": {
+    "title": "Cryptocurrency Quoter",
+    "desc": "Fetches data from an API to display the current price of a cryptocurrency based on the selected currency."
+  },
+  "project4": {
+    "title": "Django CRUD",
+    "desc": "Login system and CRUD operations on products."
+  },
+  "project5": {
+    "title": "React and Sequelize CRUD",
+    "desc": "React frontend with TypeScript and a backend using Sequelize and Node. Uses CORS, Morgan, and Express; includes tests and validations."
+  },
+  "project6": {
+    "title": "Reservation Manager",
+    "desc": "Login and user registration system with CRUD operations for reservations and users."
+  },
+  "project7": {
+    "title": "Rockstargames site",
+    "desc": "Fullstack project using a headless CMS, website with blog posts and image gallery"
+  },
+  "project8": {
+    "title": "Landing page SoltechMx",
+    "desc": "Landing page about personal project called Soltechmx"
+  },
+  "technologies": {
+    "shopify": "Shopify",
+    "liquid": "Liquid",
+    "javascript": "JavaScript",
+    "nextJS": "Next.js",
+    "airtable": "Airtable",
+    "tailwindCSS": "TailwindCSS",
+    "reactJS": "React.js",
+    "redux": "Redux",
+    "firebase": "Firebase"
+  },
+
+  "nav": {
+    "home": "Home",
+    "technologies": "Technologies",
+    "projects": "Projects",
+    "about": "About",
+    "experience": "Experience"
+  },
+  "footer": {
+    "madewith": "Made by "
+  },
 
   "work": {
-  "gc1Holding": {
-    "title": "GC1 Holding (January 2025 - Present)",
-    "description": "",
-    "role": "Role: Junior Web Developer",
-    "work": "Development and maintenance of websites as well as maintenance of AWS instances",
-    "technologies": "Technologies: React, Node.js, MongoDB, AWS, Bootstrap"
-  },
-  "coppel": {
-    "title": "Coppel (December 2023 - July 2024)",
-    "description": "",
-    "role": "Programming Intern",
-    "work": "Learning about work methodology within the Scrum framework and training in web development",
-    "technologies": "Technologies: PHP, MySQL, ColdFusion, and Scrum"
+    "gc1Holding": {
+      "title": "GC1 Holding (January 2025 - Present)",
+      "description": "",
+      "role": "Role: Junior Web Developer",
+      "work": "Development and maintenance of websites as well as maintenance of AWS instances",
+      "technologies": "Technologies: React, Node.js, MongoDB, AWS, Bootstrap"
+    },
+    "coppel": {
+      "title": "Coppel (December 2023 - July 2024)",
+      "description": "",
+      "role": "Programming Intern",
+      "work": "Learning about work methodology within the Scrum framework and training in web development",
+      "technologies": "Technologies: PHP, MySQL, ColdFusion, and Scrum"
+    }
   }
 }
-  }
-  
