@@ -8,7 +8,7 @@
     "optimized": "Optimizada"
   },
   "hero": {
-    "introduction": "¡Hola! tengo 25 años y soy un apasionado del desarrollo web. Me encanta crear soluciones digitales que combinan diseño, funcionalidad y una buena dosis de creatividad. En este espacio comparto algunos de mis proyectos y lo que disfruto construir con código.",
+    "introduction": "Desarrollador web orientado a la creación de experiencias digitales de alta calidad, cuidando cada detalle desde la planificación hasta la entrega final. Mi enfoque está en ofrecer soluciones personalizadas que se adapten a las necesidades de cada proyecto, equilibrando diseño, usabilidad y rendimiento. Valoro la importancia de cumplir con los tiempos de entrega sin sacrificar la excelencia del resultado, asegurando que cada desarrollo sea funcional, escalable y fácil de mantener. Disfruto trabajar tanto de manera independiente como en equipo, aplicando buenas prácticas y metodologías ágiles para garantizar un proceso de desarrollo eficiente y transparente.",
     "callToAction": "Conoce mis proyectos >"
   },
   "contact": {
@@ -82,7 +82,8 @@
     "technologies": "Tecnologías",
     "projects": "Proyectos",
     "about": "Sobre_mi",
-    "experience": "Experiencia"
+    "experience": "Experiencia",
+    "education": "Educacion"
   },
   "footer": {
     "madewith": "Desarrollado por"
@@ -103,5 +104,15 @@
       "work": "Aprendizaje sobre la metodologia de trabajo en el marco de scrum y capacitacion sobre desarrollo web",
       "technologies": "Tecnologias: PHP, MySql, Coldfusion y Scrum"
     }
-  }
+  },
+  "education": {
+    "title": "Educación"
+  },
+  "escuela": {
+    "carrera": "Ingeniería en Tecnologías de la Información y Comunicaciones",
+    "institucion": "Instituto Tecnológico de Culiacán",
+    "status": "titulado",
+    "fecha": "Agosto 2019 - Diciembre 2024"
+  },
+  "universidad": "Universidad"
 }

@@ -1,6 +1,6 @@
 {
   "hero": {
-    "introduction": "Hi! I'm 25 years old, and passionate about web development. I love creating digital solutions that combine design, functionality, and a healthy dose of creativity. Here, I share some of my projects and my enjoyment of building with code.",
+    "introduction": "Web developer dedicated to delivering high-quality digital experiences, paying attention to every detail from planning to final delivery. My approach focuses on providing customized solutions tailored to the needs of each project, balancing design, usability, and performance. I place strong emphasis on meeting deadlines without compromising excellence, ensuring that every development is functional, scalable, and easy to maintain. I enjoy working both independently and collaboratively, applying best practices and agile methodologies to guarantee an efficient and transparent development process.",
     "callToAction": "Check out my projects >"
   },
   "contact": {
@@ -73,7 +73,8 @@
     "technologies": "Technologies",
     "projects": "Projects",
     "about": "About",
-    "experience": "Experience"
+    "experience": "Experience",
+    "education": "Education"
   },
   "footer": {
     "madewith": "Made by "
@@ -94,5 +95,15 @@
       "work": "Learning about work methodology within the Scrum framework and training in web development",
       "technologies": "Technologies: PHP, MySQL, ColdFusion, and Scrum"
     }
-  }
+  },
+  "education": {
+    "title": "Education"
+  },
+  "escuela": {
+    "carrera": "Bachelor in Information and Communication Technologies",
+    "institucion": "Instituto Tecnológico de Culiacán",
+    "status": "Graduated",
+    "fecha": "August 2019 - December 2024"
+  },
+  "universidad": "University"
 }
